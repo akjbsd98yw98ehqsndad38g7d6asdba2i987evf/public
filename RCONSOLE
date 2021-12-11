@@ -1,0 +1,12 @@
+local Library = {}
+local RunService = game:GetService("RunService")
+
+function Library:New(Name)
+    rconsolename(Name)
+end
+
+function Library:Print(Message)
+    rconsoleprint(Message.."\n")
+end
+
+return Librar
