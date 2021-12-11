@@ -9,4 +9,4 @@ function Library:Print(Message)
     rconsoleprint(Message.."\n")
 end
 
-return Librar
+return Library
